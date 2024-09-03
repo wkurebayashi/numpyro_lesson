@@ -1,7 +1,11 @@
 # numpyro_lesson
 
-## Initial setting
+## Install Numpyro & related packages
 
 ```
-conda create -n venv ipykernel ipywidgets jax=0.3.15 matplotlib numpy pandas scikit-learn scipy seaborn conda-forge::numpyro
+conda create -n venv python==3.10
+conda activate venv
+conda install numpy scipy=1.12.0 matplotlib arviz ipykernel ipywidget
+conda install -c conda-forge jax
+conda install -c conda-forge numpyro
 ```
